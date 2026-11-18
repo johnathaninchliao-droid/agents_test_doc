@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "OpenCode",
+      "type": "process",
+      "command": "C:\\Users\\User\\AppData\\Local\\Programs\\opencode\\opencode.exe",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "dedicated",
+        "group": "multi-agent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Antigravity CLI",
+      "type": "process",
+      "command": "C:\\Users\\User\\AppData\\Local\\agy\\bin\\agy.exe",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "dedicated",
+        "group": "multi-agent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "雙代理（OpenCode + Antigravity）",
+      "dependsOn": [
+        "OpenCode",
+        "Antigravity CLI"
+      ],
+      "dependsOrder": "parallel",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
