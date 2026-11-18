@@ -5,3 +5,4 @@
 - 建立時間：2026-11-18
 - GitHub：[johnathaninchliao-droid/agents_test_doc](https://github.com/johnathaninchliao-droid/agents_test_doc)
 - 常用指令：[Antigravity 與 OpenCode 常用指令](./AGENT_COMMANDS.md)
+- 今日安裝與設定紀錄：[Herdr、Antigravity 與 OpenCode](./TODAY_SETUP.md)
