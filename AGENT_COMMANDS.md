@@ -37,6 +37,8 @@ Set-Location -LiteralPath 'C:\Users\User\Documents\多重代理\opencode'
 | 繼續最近的工作階段 | `opencode --continue` |
 | 查看或登入整合服務 | `opencode auth list`、`opencode auth login` |
 
+完整的 CLI、TUI 快捷鍵與「專案等級」設定說明，請見 [opencode/AGENT_COMMANDS.md](./opencode/AGENT_COMMANDS.md) 與 [opencode/專案與專案等級.md](./opencode/專案與專案等級.md)。
+
 ## 從 VS Code 啟動兩個代理
 
 在 VS Code 選擇 **Terminal → Run Task**，再執行 **雙代理（OpenCode + Antigravity）**。兩個代理會在各自的終端機中啟動。

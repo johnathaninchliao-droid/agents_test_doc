@@ -14,9 +14,10 @@
 
 ## 包含檔案清單
 
-1. [AGENT_COMMANDS.md](file:///C:/Users/User/Documents/多重代理/opencode/AGENT_COMMANDS.md) - OpenCode CLI 專屬指令說明手冊
-2. [exception_handling.md](file:///C:/Users/User/Documents/多重代理/opencode/exception_handling.md) - 例外處理（Exception Handling）學習檔案
-3. [分支練習.ipnb](file:///C:/Users/User/Documents/多重代理/opencode/分支練習.ipnb) - Git 分支操作演練檔案
+1. [AGENT_COMMANDS.md](./AGENT_COMMANDS.md) - OpenCode CLI 專屬指令說明手冊（CLI、斜線指令、快捷鍵）
+2. [專案與專案等級.md](./專案與專案等級.md) - 「專案」與「專案等級」說明，含設定層級與範例
+3. [exception_handling.md](./exception_handling.md) - 例外處理（Exception Handling）學習檔案
+4. [分支練習.ipnb](./分支練習.ipnb) - Git 分支操作演練檔案
 
 ---
 

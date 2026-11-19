@@ -24,6 +24,7 @@
 └── opencode/                              # 【OpenCode 專屬空間】
     ├── README.md                          # OpenCode 空間說明
     ├── AGENT_COMMANDS.md                  # opencode 專用指令手冊
+    ├── 專案與專案等級.md                    # 專案／專案等級說明與設定範例
     ├── exception_handling.md              # 例外處理學習筆記 (專屬副本)
     └── 分支練習.ipnb                       # Git 分支練習 (專屬副本)
 ```
@@ -44,3 +45,4 @@
 - GitHub Repository: [johnathaninchliao-droid/agents_test_doc](https://github.com/johnathaninchliao-droid/agents_test_doc)
 - [Herdr、Antigravity 與 OpenCode 安裝指南](./TODAY_SETUP.md)
 - [對話紀錄：例外處理與 Git 操作指南](./對話紀錄_例外處理與Git教學.md)
+- [OpenCode：專案與專案等級說明](./opencode/專案與專案等級.md)
