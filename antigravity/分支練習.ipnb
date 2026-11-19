@@ -1,0 +1,17 @@
+```bash
+# 建立並切換到新分支
+git switch -c feature/login
+
+# 查看目前分支
+git branch
+
+# 切回 main
+git switch main
+
+# 更新 main
+git pull
+
+# 合併 feature 分支
+git switch main
+git merge feature/login
+```

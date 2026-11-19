@@ -55,12 +55,17 @@ opencode --version
 opencode --help
 ```
 
-### 4. 在 Herdr 啟動兩個代理
+### 4. 在 Herdr 啟動兩個代理（一對一專屬 Space 設定）
 
-1. 在 Herdr 建立或開啟要工作的專案資料夾（space）。
-2. 在第一個終端機面板執行 `agy`。
-3. 在另一個終端機面板執行 `opencode .`。
-4. 兩個命令都能啟動後，就可在 Herdr 裡分別使用 Antigravity 和 OpenCode。
+為了避免兩個代理同時修改相同檔案產生衝突，專案已劃分一對一獨立工作區：
+
+1. **Antigravity 專屬 Space (`多重代理(antigravity)`)**：
+   - 設定工作目錄為：`C:\Users\User\Documents\多重代理\antigravity`
+   - 在終端機執行 `agy`。
+2. **OpenCode 專屬 Space (`多重代理(opencode)`)**：
+   - 設定工作目錄為：`C:\Users\User\Documents\多重代理\opencode`
+   - 在終端機執行 `opencode .`。
+3. 如此兩邊的檔案、終端機與操作進度即完全一對一分開，互不干擾。
 
 這些命令要求對應 CLI 已安裝並在 PATH 中。若終端機顯示「找不到命令」，先確認安裝完成，再開啟新的終端機；也可用 `Get-Command agy` 和 `Get-Command opencode` 檢查。
 

@@ -2,11 +2,11 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "OpenCode",
+      "label": "OpenCode (opencode 目錄)",
       "type": "process",
       "command": "C:\\Users\\User\\AppData\\Local\\Programs\\opencode\\opencode.exe",
       "options": {
-        "cwd": "${workspaceFolder}"
+        "cwd": "${workspaceFolder}\\opencode"
       },
       "presentation": {
         "echo": true,
@@ -18,11 +18,11 @@
       "problemMatcher": []
     },
     {
-      "label": "Antigravity CLI",
+      "label": "Antigravity CLI (antigravity 目錄)",
       "type": "process",
       "command": "C:\\Users\\User\\AppData\\Local\\agy\\bin\\agy.exe",
       "options": {
-        "cwd": "${workspaceFolder}"
+        "cwd": "${workspaceFolder}\\antigravity"
       },
       "presentation": {
         "echo": true,
@@ -34,10 +34,10 @@
       "problemMatcher": []
     },
     {
-      "label": "雙代理（OpenCode + Antigravity）",
+      "label": "雙代理一對一獨立啟動（OpenCode + Antigravity）",
       "dependsOn": [
-        "OpenCode",
-        "Antigravity CLI"
+        "OpenCode (opencode 目錄)",
+        "Antigravity CLI (antigravity 目錄)"
       ],
       "dependsOrder": "parallel",
       "group": {

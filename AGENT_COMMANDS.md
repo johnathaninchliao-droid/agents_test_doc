@@ -1,9 +1,13 @@
 # Antigravity 與 OpenCode 常用指令
 
-以下指令適用於 Windows PowerShell，請先在終端機切換到專案資料夾。
+以下指令適用於 Windows PowerShell。專案已依代理區分專屬目錄，請在終端機切換至對應工作區：
 
 ```powershell
-Set-Location -LiteralPath 'C:\Users\User\Documents\多重代理'
+# 切換至 Antigravity 專屬目錄
+Set-Location -LiteralPath 'C:\Users\User\Documents\多重代理\antigravity'
+
+# 或切換至 OpenCode 專屬目錄
+Set-Location -LiteralPath 'C:\Users\User\Documents\多重代理\opencode'
 ```
 
 ## Antigravity CLI
